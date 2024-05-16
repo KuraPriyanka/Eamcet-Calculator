@@ -19,13 +19,13 @@ python manage.py runserver
 Clone this repository using the following command
 
 ```
-https://github.com/KuraPriyanka/Eamcet-Calculator
+https://github.com/KuraPriyanka/Eamcet-Calculator.git
 ```
 ```
 cd Eamcet-Calculator
 ```
 
-now, run the following command on the terminal by specifying your preferable port number in `port_number` or leave it to in default port `8000`
+now, run the following command on the terminal by specifying your preferred port number in `port_number` or leave it in default port `8000`
 
 ```
 python manage.py runserver {port_number}
@@ -36,7 +36,7 @@ python manage.py runserver {port_number}
 Checking your online responses sheet and calculating your exam score can be dauntful. So, I did a project to calculate your score automatically by providing your response sheet link to the website.
 
 - Web scraping is done using BeautifulSoup
-- Django is used as backend
+- Django is used as the backend
 - Plain HTML and CSS is used.
 
 ## License
