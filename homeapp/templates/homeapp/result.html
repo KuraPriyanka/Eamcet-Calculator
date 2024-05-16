@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'result.css' %}" />
+    <title>Result</title>
+  </head>
+  <body>
+    <div id="container">
+      <table>
+        <tr>
+          <td class="heading--col">Name:</td>
+          <td>{{name}}</td>
+        </tr>
+        <tr>
+          <td class="heading--col">Hall ticket Number:</td>
+          <td>{{hall_ticket_number}}</td>
+        </tr>
+        <tr>
+          <td class="heading--col">Maths Score:</td>
+          <td id="green"><strong>{{maths_score}} / 80</strong></td>
+        </tr>
+        <tr>
+          <td class="heading--col">Physics Score:</td>
+          <td id="green"><strong>{{physics_score}} / 40</strong></td>
+        </tr>
+        <tr>
+          <td class="heading--col">Chemistry Score:</td>
+          <td id="green"><strong>{{chemistry_score}} / 40</strong></td>
+        </tr>
+        <tr>
+          <td class="heading--col">Total Score:</td>
+          <td id="green"><strong>{{total_score}} / 160</strong></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
